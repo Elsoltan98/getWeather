@@ -1,0 +1,15 @@
+.footer {
+  background-color: #fff;
+  text-align: center;
+  border-top: solid 2px rgba($colour-1, 0.3);
+  letter-spacing: 0.3px;
+  padding: 15px 20px;
+
+  p {
+    margin-bottom: 0;
+  }
+
+  @include respond(largePhone) {
+    letter-spacing: 0;
+  }
+}
